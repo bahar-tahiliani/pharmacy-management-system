@@ -1,0 +1,160 @@
+#login_page {
+    background-color: #3C5186;
+}
+#form_content{
+    background-color: whitesmoke;
+    position: relative;
+    top: 150px;
+}
+.wrapper{
+    width: 99%;
+}
+#header {
+    background-color: #1EAE98;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+.sidebar-header{
+    color: whitesmoke;
+}
+#sidebar {
+    background-color: #3C5186;
+    height: auto;
+}
+#sidebar ul {
+    list-style: none;
+}
+#sidebar ul li {
+    padding-bottom: 15px;
+    color: white;
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+#sidebar ul li a:hover{
+    font-size: 18px;
+}
+#card1 {
+    background-color: #FFC947;
+    margin: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+}
+#card1:hover{
+    background-color: #4C4C6D;
+    color: white;
+    height: 155px;
+    width: 205px;
+}
+#card2 {
+    background-color: #FFC947;
+    margin: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+}
+#card2:hover{
+    background-color: #4C4C6D;
+    color: white;
+    height: 155px;
+    width: 205px;
+}
+#card3 {
+    background-color: #FFC947;
+    margin: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+}
+#card3:hover{
+    background-color: #4C4C6D;
+    color: white;
+    height: 155px;
+    width: 205px;
+}
+#card4 {
+    background-color: #FFC947;
+    margin: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+}
+#card4:hover{
+    background-color: #4C4C6D;
+    color: white;
+    height: 155px;
+    width: 205px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: darkorange;
+    color: white;
+    padding-left: 12px;
+    margin-left: 50px;
+    margin-top: 10px;;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: brown;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
